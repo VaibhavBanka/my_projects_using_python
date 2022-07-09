@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Html Page</title>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        #team{
+            color: red;
+            margin: 30px;
+            background-color: orange;
+            padding: 20px;
+            border: 7px solid green;
+            border-radius: 25px;
+        }
+        #heading{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: xx-large;
+
+        }
+        .head{
+            color: black;
+            margin: auto;
+            font-size: x-large;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-style: oblique;
+        }
+        #objective{
+            color: green;
+            background-color: yellow;
+            border: 7px solid red;
+            border-radius: 25px;
+            margin: 30px;
+            padding: 20px;
+        }
+        #project{
+            color: green;
+            background-color: yellow;
+            border: 7px solid red;
+            border-radius: 25px;
+            margin: 30px;
+            padding: 20px;
+        }
+        #image{
+            text-align: center;
+            height: 200px auto;
+            width: 200px auto;
+        }
+        .btn{
+            cursor: pointer;
+            background-color: burlywood;
+        }
+        a :hover{
+            color: rgb(68,3,38);
+            background-color: yellow;
+        }
+        .link:visited{
+            color: yellow;
+        }
+        .btn:hover{
+            color:darkgoldenrod;
+            background-color: antiquewhite;
+            font-weight: bolder;
+        }
+        .navbar{
+            background-color: black;
+        }
+        .navbar ul{
+            overflow:auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+        }
+        .navbar li a{
+            padding: 13px 23px;
+            text-decoration: none;
+            color:red;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Objective</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+        </nav>
+    </header><br><br>
+    <div id=image><img src="/adc.jpg" alt="not loading" ></div>
+    <h1 id="heading"><u>Android Club VIT Chennai</u></h1>
+    <details>
+        <summary class="head">Our objective</summary>
+        <summary id="objective">The Android Club, VIT Chennai is a Technical club specializing in Android App Development. Our objective is to help the students learn how to start with the basics of Android Development and progress towards building full fledged applications.</summary>
+    </details><br>
+    <details>
+        <summary class="head">Our Team</summary>
+        <ul id="team">
+            <li><strong>President</strong></li><p>Shivam has an incredible thirst for learning practical skills.He will achieve the thing once he sets his mind on it, be it learning or a new software within a day or two, or going to a ride to a completely different state. His dedication towards his work is just next level. And this is exact the reason why we need a leader like him.</p>
+            <li><strong>Vice President</strong></li><p>Her clutch on organising an event is just JEDI level. One thing you should be sure about having her on the team is that work will be done and dusted smoothly. Be it mulitasking management or staying calm or efficient, she is supple to fit in all these roles simultaneously.</p>
+        </ul>
+    </details><br>
+    <details>
+        <summary class="head">Our Projects</summary>
+        <ol id="project">
+            <li>TextFi</li><p>It is an application built focusing on keeping your online identity anonymous. Hidden usernames to complex room codes all your conversations would be kept secret on this platform.</p>
+            <li>Timely</li><p>It is a timetable organisation application which helps you save your class schedule.</p>
+        </ol>
+    </details><br>
+    <p id="club" class="link">Want to know more about us? <a href=https://androidclubvit.com target="_blank">Click here</a>.</p>
+    <p id="feedback" class="link">To fill the feedback form <a href="/links/feedback.html" target="_blank">Click here</a></p>
+    <button class="btn">CONTACT US</button>
+</body>
+</html>
